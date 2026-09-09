@@ -334,7 +334,7 @@ public static partial class SolarTerms
             zq[i] = JiaoCal(t1 + i * 30.4, i * 30 - 90, 0);
             jq[i] = JiaoCal(t1 + i * 30.4, i * 30 - 105, 0);
         }
-        double dongZhiJia1 = zq[0] + 1 - jDate.Dint_dec(zq[0], 8, 1);
+        double dongZhiJia1 = zq[0] + 1 - jDate.Dint_dec(zq[0], 8, 0);
         hs[0] = JiaoCal(dongZhiJia1, 0, 1);
         for (int i = 1; i < 14; i++) hs[i] = JiaoCal(hs[i - 1] + 25, 0, 1);
 
