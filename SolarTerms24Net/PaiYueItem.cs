@@ -1,5 +1,3 @@
-using Py2Cs;
-
 namespace SolarTerms24Net;
 
     public class PaiYueItem 
