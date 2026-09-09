@@ -90,4 +90,6 @@ Console.WriteLine(result);
 
 ## License
 
-与原项目保持一致，遵循其开源协议（详见原项目仓库）。转载 / 二次开发请注明原作者及本移植项目出处。
+[MIT](LICENSE)
+
+本项目基于 [Comee/SolarTerms24](https://github.com/Comee/SolarTerms24) 的算法移植而来，原项目未附带开源协议；本移植项目以 MIT 协议发布。使用时请注明原作者（xuer）及本移植项目出处。
